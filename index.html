@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Shift Footwear</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -28,15 +31,37 @@
   </section>
 
   <!-- Categories -->
-  <section class="Catrgories">
-    <h2>Shop by category</h2>
-    <div class="cat-grid">
-      <a href="shop.html" class="cat"> Sneakers</a>
-      <a href="shop.html" class="cat"> Casual shoes</a>
-      <a href="shop.html" class="cat"> Running shoes</a>
-      <a href="shop.html" class="cat"> Sandals</a>
-    </div>
-  </section>
+ <section class="categories">
+  <h2>Shop by category</h2>
+  <p class="section-sub">Find the right pair for every day.</p>
+  <div class="cat-grid">
+
+    <a href="shop.html?category=sneakers" class="cat">
+      <h3>Sneakers</h3>
+      <p>Everyday style for school, work and hangouts.</p>
+      <span class="cat-link">Shop sneakers →</span>
+    </a>
+
+    <a href="shop.html?category=casual" class="cat">
+      <h3>Casual Shoes</h3>
+      <p>Clean, simple pairs that go with anything.</p>
+      <span class="cat-link">Shop casual →</span>
+    </a>
+
+    <a href="shop.html?category=running" class="cat">
+      <h3>Running Shoes</h3>
+      <p>Light and cushioned for your daily miles.</p>
+      <span class="cat-link">Shop running →</span>
+    </a>
+
+    <a href="shop.html?category=sandals" class="cat">
+      <h3>Sandals</h3>
+      <p>Easy, breathable comfort for warm days.</p>
+      <span class="cat-link">Shop sandals →</span>
+    </a>
+
+  </div>
+</section>
 
   <section class="products">
     <h2>Featured shoes</h2>
@@ -44,22 +69,30 @@
       <div class="card">
         <div class="img">Sneakers</div>
         <h3>Street Low</h3>
+        <p class="sizes">Sizes 5–10</p>
         <p>₱1,299</p>
+        <a href="shop.html" class="btn-small">View details</a>
       </div>
       <div class="card">
         <div class="img">Casual</div>
         <h3>Daily Walk</h3>
+        <p class="sizes">Sizes 6–12</p>
         <p>₱959</p>
+        <a href="shop.html" class="btn-small">View details</a>
       </div>
       <div class="card">
         <div class="img">Running</div>
         <h3>Shift Runner</h3>
+        <p class="sizes">Sizes 6–11</p>
         <p>₱1,499</p>
+        <a href="shop.html" class="btn-small">View details</a>
       </div>
       <div class="card">
         <div class="img">Sandals</div>
         <h3>Breeze Slide</h3>
+        <p class="sizes">Sizes 5–11</p>
         <p>₱799</p>
+        <a href="shop.html" class="btn-small">View details</a>
       </div>
     </div>
   </section>
