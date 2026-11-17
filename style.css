@@ -44,6 +44,13 @@ nav a:hover { color: #ff6a13; }
 }
 .btn:hover { background: #fff; }
 
+/* Shared section style */
+.categories, .products, .why, .about, .contact {
+  padding: 50px 24px;
+  max-width: 1000px;
+  margin: auto;
+}
+
 /* Categories */
 .cat {
   display: grid;
@@ -82,6 +89,17 @@ nav a:hover { color: #ff6a13; }
   color: #777;
 }
 .card p { color: #ff6a13; font-weight: bold; }
+.card .size {color: #777; font-weight: normal; font-size: 14px;}
+.btn-small {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 6px 16px;
+  border: 2px solid #000;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.btn-small:hover {background: #000;color: #fff;}
 
 /* Promo banner */
 .promo {
