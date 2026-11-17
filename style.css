@@ -119,13 +119,67 @@ nav a:hover { color: #ff6a13; }
 }
 .btn-dark:hover {background: #fff; color: #000;}
 
+/* Why */
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+why-item {
+  padding: 20px;
+  background: #f4f4f4;
+  border-left: 4px solid #ff6a13;
+  border-radius: 8px;
+}
+.why-item h3 { margin-bottom: 6px; }
+
+/* About */
+.about { text-align: center; max-width: 700px; }
+.about p { margin-bottom: 16px; }
+.text-link { font-weight: 600; border-bottom: 2px solid #ff6a13; }
+.text-link:hover { color: #ff6a13; }
+
+
+/* Contact form */
+.contact {
+  max-width: 100%;
+  background: #000;
+  color: #fff;
+  text-align: center;
+}
+.contact > p { margin-bottom: 20px; color: #ccc; }
+.contact form {
+  display: grid;
+  gap: 8px;
+  max-width: 500px;
+  margin: auto;
+  text-align: left;
+}
+.contact label { font-weight: 500; font-size: 15px; }
+.contact input, .contact textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 2px solid #555;
+  border-radius: 10px;
+  font-family: inherit;
+  font-size: 1rem;
+}
+.contact input:focus, .contact textarea:focus {
+  outline: none;
+  border-color: #ff6a13;
+}
+.contact .btn { justify-self: start; margin-top: 10px; }
+
 /* Footer */
 footer {
   text-align: center;
   padding: 20px;
   background: #000;
   color: #fff;
+   border-top: 1px solid #333;
 }
+footer nav { justify-content: center; margin-bottom: 12px; }
+footer p { color: #888; font-size: 14px; }
 
 /* Mobile */
 @media (max-width: 600px) {
